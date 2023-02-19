@@ -6,8 +6,11 @@ interface IProps {
 
 const MainLayout = () => {
   return (
-    <div className="tb2 flex vh100">
-      <div></div>
+    <div className="vh100">
+      <div className="section1"></div>
+      <div className="section2"></div>
+      <div className="section3"></div>
+      <div className="section4"></div>
     </div>
   );
 };

@@ -3,7 +3,9 @@ import MainLayout from "../../components/layouts/MainLayout";
 import "./index.css";
 const Main = () => {
   return (
-    <div className="mainpage-wrap border-box tb1">
+    <div className="mainpage-wrap">
+      <MainLayout />
+      <MainLayout />
       <MainLayout />
     </div>
   );
