@@ -2,6 +2,19 @@
   height: 300vh;
 }
 
+.topLayout {
+  width: 80%;
+}
+
+.middleLayout {
+}
+
+.bottomLayout {
+}
+
+.scroll_controls {
+  border: 3px solid red;
+}
 
 .section1 {
   height: 30vh;
@@ -18,4 +31,58 @@
 .section4 {
   height: 20vh;
   background-color: chartreuse;
+}
+.section5 {
+  height: 20vh;
+  background-color: red;
+}
+.section6 {
+  height: 80vh;
+  background-color: crimson;
+}
+.section7 {
+  height: 25vh;
+  background-color: cyan;
+}
+.section8 {
+  height: 25vh;
+  background-color: chocolate;
+}
+.section9 {
+  height: 25vh;
+  background-color: darkcyan;
+}
+.section0 {
+  height: 25vh;
+  background-color: forestgreen;
+}
+
+.full-page-controls {
+  position: fixed;
+  bottom: 60px;
+  right: 50vw;
+}
+
+.full-page-controls button {
+  display: none;
+}
+
+.full-page-controls button:first-child,
+button:last-child {
+  display: block;
+}
+
+@media screen and (max-height: 600px) {
+  .section4 {
+    display: none;
+  }
+  .section1 {
+    height: 33.333vh;
+  }
+  .section2 {
+    height: 33.333vh;
+  }
+  .section3 {
+    height: 33.333vh;
+  }
 }

@@ -1,18 +1,16 @@
 import React from "react";
 
-interface IProps {
-  children: React.ReactElement;
-}
+const TopSection = (props: any) => {
+  console.log(props);
 
-const MainLayout = () => {
   return (
-    <div className="vh100">
+    <div>
       <div className="section1"></div>
       <div className="section2"></div>
       <div className="section3"></div>
-      <div className="section4"></div>
+      <div className="section4 flex justify-center align-center"></div>
     </div>
   );
 };
 
-export default MainLayout;
+export default TopSection;
